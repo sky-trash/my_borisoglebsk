@@ -1,6 +1,6 @@
 <script setup>
-import '../assets/root.scss'
-import '../assets/index.scss'
+import '../assets/style/root/root.scss'
+import '../assets/style/index.scss'
 </script>
 
 <template>
