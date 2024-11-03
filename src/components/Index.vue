@@ -1,14 +1,9 @@
 <script setup>
-import '../assets/style/root/root.scss'
-import '../assets/style/index.scss'
+import Header from './views/header.vue'
+import Footer from './views/footer.vue'
 </script>
 
 <template>
-  <div>
-    <h1>Hello world</h1>
-  </div>
+  <Header />
+  <Footer />
 </template>
-
-<style scoped>
-
-</style>
