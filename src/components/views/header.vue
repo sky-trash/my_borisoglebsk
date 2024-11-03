@@ -45,7 +45,7 @@ import '../../assets/style/views/header.scss'
       </section>
       <section class="header-logo">
         <div class="header-logo_icons">
-          <a class="../Index.vue">
+          <a href="../Index.vue">
             <img src="../../assets/icons/header/logo.svg" alt="">
           </a>
         </div>
