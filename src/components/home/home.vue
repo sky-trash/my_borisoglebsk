@@ -57,6 +57,16 @@ import Header from '../views/header.vue'
             </div>
           </a>
         </div>
+        <a href="#">
+          <div class="main_news_more">
+            <div class="main_news_more_text">
+              <h1>Подробнее</h1>
+            </div>
+            <div class="main_news_more_icons">
+              <img src="../../assets/icons/home/right.svg" alt="">
+            </div>
+          </div>
+        </a>
       </section>
     </main>
   </div>
