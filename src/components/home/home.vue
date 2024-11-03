@@ -2,6 +2,7 @@
 import '../../assets/style/root/root.scss'
 import '../../assets/style/home/home.scss'
 import Header from '../views/header.vue'
+
 </script>
 <template>
   <Header />
@@ -27,32 +28,32 @@ import Header from '../views/header.vue'
       <section class="main_news">
         <div class="main_news_navigation">
           <a href="#">
-            <div class="main_news_navigation_text">
+            <div id="button-news"class="main_news_navigation_text">
               <h1>Все новости</h1>
             </div>
           </a>
           <a href="#">
-            <div class="main_news_navigation_text">
+            <div id="button-trips" class="main_news_navigation_text">
               <h1>Происшествия</h1>
             </div>
           </a>
           <a href="#">
-            <div class="main_news_navigation_text">
+            <div id="button-sport" class="main_news_navigation_text">
               <h1>Спорт</h1>
             </div>
           </a>
           <a href="#">
-            <div class="main_news_navigation_text">
+            <div id="button-policy" class="main_news_navigation_text">
               <h1>Политика</h1>
             </div>
           </a>
           <a href="#">
-            <div class="main_news_navigation_text">
+            <div id="button-economy"class="main_news_navigation_text">
               <h1>Экономика</h1>
             </div>
           </a>
           <a href="#">
-            <div class="main_news_navigation_text">
+            <div id="button-culture" class="main_news_navigation_text">
               <h1>Культура</h1>
             </div>
           </a>

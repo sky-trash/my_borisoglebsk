@@ -65,10 +65,29 @@
   .main_news_navigation {
     display: flex;
     margin: 0;
-
-    .main_news_navigation_text {
+    
+    #button-news {
       height: 28px;
       padding: 0 32px 0 0;
+      text-wrap-mode: nowrap;
+
+      h1 {
+        padding: 5px 14px 6px 14px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: var(--text-white);
+        border-radius: 35px;
+        background: var(--button-black);
+      }
+    }
+    #button-trips {
+      height: 28px;
+      padding: 0 32px 0 0;
+      text-wrap-mode: nowrap;
 
       h1 {
         padding: 5px 14px 6px 14px;
@@ -81,18 +100,74 @@
         color: var(--text-dark-alt);
       }
     }
-    .main_news_navigation_text:hover {
+    #button-sport {
+      height: 28px;
+      padding: 0 32px 0 0;
+      text-wrap-mode: nowrap;
 
       h1 {
-        border-radius: 35px;
-        background: var(--button-black);
-        color: var(--text-white);
+        padding: 5px 14px 6px 14px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: var(--text-dark-alt);
+      }
+    }
+    #button-policy {
+      height: 28px;
+      padding: 0 32px 0 0;
+      text-wrap-mode: nowrap;
+
+      h1 {
+        padding: 5px 14px 6px 14px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: var(--text-dark-alt);
+      }
+    }
+    #button-economy {
+      height: 28px;
+      padding: 0 32px 0 0;
+      text-wrap-mode: nowrap;
+
+      h1 {
+        padding: 5px 14px 6px 14px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: var(--text-dark-alt);
+      }
+    }
+    #button-culture {
+      height: 28px;
+      padding: 0 32px 0 0;
+      text-wrap-mode: nowrap;
+
+      h1 {
+        padding: 5px 14px 6px 14px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: var(--text-dark-alt);
       }
     }
   }
   .main_news_more {
     display: flex;
-    // padding: 2px 0 2px 371px;
+    padding: 2px 0 2px 311px;
 
     h1 {
       font-family: var(--font-family);
