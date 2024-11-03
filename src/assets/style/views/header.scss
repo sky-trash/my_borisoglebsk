@@ -93,7 +93,6 @@
 
     .header-down_nav_menu {
       display: flex;
-      padding: 0 80.8px 0 0;
 
       .header-down_nav_menu_text {
         padding: 3px 0 3px 8px;
@@ -129,6 +128,7 @@
           line-height: 100%;
           text-transform: uppercase;
           color: var(--text-dark-alt);
+          text-wrap-mode: nowrap;
         }
       }
     }
