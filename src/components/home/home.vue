@@ -85,7 +85,7 @@ import Header from '../views/header.vue'
               </div>
               <div class="main_news_content_card_views_scan">
                 <img src="../../assets/icons/home/time.svg" alt="">
-                <h1>546</h1>
+                <h1>546.</h1>
               </div>
             </div>
           </div>
