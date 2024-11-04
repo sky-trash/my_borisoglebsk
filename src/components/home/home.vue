@@ -57,8 +57,7 @@ import Header from '../views/header.vue'
               <h1>Культура</h1>
             </div>
           </a>
-        </div>
-        <a href="#">
+          <a href="#">
           <div class="main_news_more">
             <div class="main_news_more_text">
               <h1>Подробнее</h1>
@@ -68,6 +67,29 @@ import Header from '../views/header.vue'
             </div>
           </div>
         </a>
+        </div>
+        <div class="main_news_content">
+          <div class="main_news_content_card">
+            <div class="main_news_content_card_icons">
+              <img src="../../assets/icons/home/incidents.svg" alt="">
+            </div>
+            <div class="main_news_content_card_tags">
+              <h1>Происшествия</h1>
+            </div>
+            <div class="main_news_content_card_text">
+              <h1>В Воронежкой области потерпел крушение самолет Су-34</h1>
+            </div>
+            <div class="main_news_content_card_views">
+              <div class="main_news_content_card_views_time">
+                <h1>Вчера, 23:56</h1>
+              </div>
+              <div class="main_news_content_card_views_scan">
+                <img src="../../assets/icons/home/time.svg" alt="">
+                <h1>546</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </div>
