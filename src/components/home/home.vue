@@ -28,7 +28,7 @@ import Header from '../views/header.vue'
       <section class="main_news">
         <div class="main_news_navigation">
           <a href="#">
-            <div id="button-news"class="main_news_navigation_text">
+            <div id="button-news" class="main_news_navigation_text">
               <h1>Все новости</h1>
             </div>
           </a>
@@ -48,7 +48,7 @@ import Header from '../views/header.vue'
             </div>
           </a>
           <a href="#">
-            <div id="button-economy"class="main_news_navigation_text">
+            <div id="button-economy" class="main_news_navigation_text">
               <h1>Экономика</h1>
             </div>
           </a>
@@ -58,98 +58,114 @@ import Header from '../views/header.vue'
             </div>
           </a>
           <a href="#">
-          <div class="main_news_more">
-            <div class="main_news_more_text">
-              <h1>Подробнее</h1>
+            <div class="main_news_more">
+              <div class="main_news_more_text">
+                <h1>Подробнее</h1>
+              </div>
+              <div class="main_news_more_icons">
+                <img src="../../assets/icons/home/right.svg" alt="">
+              </div>
             </div>
-            <div class="main_news_more_icons">
-              <img src="../../assets/icons/home/right.svg" alt="">
-            </div>
-          </div>
-        </a>
+          </a>
         </div>
         <div class="main_news_content">
-          <div class="main_news_content_card">
-            <div class="main_news_content_card_icons">
-              <img src="../../assets/icons/home/incidents.svg" alt="">
-            </div>
-            <div class="main_news_content_card_tags">
-              <h1>Происшествия</h1>
-            </div>
-            <div class="main_news_content_card_text">
-              <h1>В Воронежкой области потерпел крушение самолет Су-34</h1>
-            </div>
-            <div class="main_news_content_card_views">
-              <div class="main_news_content_card_views_time">
-                <h1>Вчера, 23:56</h1>
+          <div class="main_news_content_tidings">
+            <div class="main_news_content_tidings_card">
+              <div class="main_news_content_tidings_card_icons">
+                <img src="../../assets/icons/home/incidents.svg" alt="">
               </div>
-              <div class="main_news_content_card_views_scan">
-                <img src="../../assets/icons/home/time.svg" alt="">
-                <h1>546</h1>
+              <div class="main_news_content_tidings_card_tags">
+                <h1>Происшествия</h1>
+              </div>
+              <div class="main_news_content_tidings_card_text">
+                <h1>В Воронежкой области потерпел крушение самолет Су-34</h1>
+              </div>
+              <div class="main_news_content_tidings_card_views">
+                <div class="main_news_content_tidings_card_views_time">
+                  <h1>Вчера, 23:56</h1>
+                </div>
+                <div class="main_news_content_tidings_card_views_scan">
+                  <img src="../../assets/icons/home/time.svg" alt="">
+                  <h1>546</h1>
+                </div>
+              </div>
+            </div>
+            <div class="main_news_content_tidings_card">
+              <div class="main_news_content_tidings_card_icons">
+                <img src="../../assets/icons/home/story.svg" alt="">
+              </div>
+              <div class="main_news_content_tidings_card_tags">
+                <h1>История одного города</h1>
+              </div>
+              <div class="main_news_content_tidings_card_text">
+                <h1>История <br>Теллермановского леса. Часть 1</h1>
+              </div>
+              <div class="main_news_content_tidings_card_views">
+                <div class="main_news_content_tidings_card_views_time">
+                  <h1>19 сентября, 16:00</h1>
+                </div>
+                <div class="main_news_content_tidings_card_views_scan">
+                  <img src="../../assets/icons/home/time.svg" alt="">
+                  <h1>2310</h1>
+                </div>
+              </div>
+            </div>
+            <div class="main_news_content_tidings_card">
+              <div class="main_news_content_tidings_card_icons">
+                <img src="../../assets/icons/home/story.svg" alt="">
+              </div>
+              <div class="main_news_content_tidings_card_tags">
+                <h1>Истоия одного города</h1>
+              </div>
+              <div class="main_news_content_tidings_card_text">
+                <h1>История <br>Теллермановского леса. Часть 2</h1>
+              </div>
+              <div class="main_news_content_tidings_card_views">
+                <div class="main_news_content_tidings_card_views_time">
+                  <h1>19 сентября, 16:00</h1>
+                </div>
+                <div class="main_news_content_tidings_card_views_scan">
+                  <img src="../../assets/icons/home/time.svg" alt="">
+                  <h1>2310</h1>
+                </div>
+              </div>
+            </div>
+            <div class="main_news_content_tidings_card">
+              <div class="main_news_content_tidings_card_icons">
+                <img src="../../assets/icons/home/sport.svg" alt="">
+              </div>
+              <div class="main_news_content_tidings_card_tags">
+                <h1>Спорт</h1>
+              </div>
+              <div class="main_news_content_tidings_card_text">
+                <h1>Нападающий ФК «Кристалл-МЭ3» о матче <br>с главными соперниками</h1>
+              </div>
+              <div class="main_news_content_tidings_card_views">
+                <div class="main_news_content_tidings_card_views_time">
+                  <h1>Вчера, 23:56</h1>
+                </div>
+                <div class="main_news_content_tidings_card_views_scan">
+                  <img src="../../assets/icons/home/time.svg" alt="">
+                  <h1>546</h1>
+                </div>
               </div>
             </div>
           </div>
-          <div class="main_news_content_card">
-            <div class="main_news_content_card_icons">
-              <img src="../../assets/icons/home/story.svg" alt="">
+          <div class="main_news_content_advertising">
+            <div class="main_news_content_advertising_card">
+              <h1>Рекламный баннер</h1>
             </div>
-            <div class="main_news_content_card_tags">
-              <h1>История одного города</h1>
+            <div class="main_news_content_advertising_card">
+              <h1>Рекламный баннер</h1>
             </div>
-            <div class="main_news_content_card_text">
-              <h1>В Воронежкой области потерпел крушение самолет Су-34</h1>
-            </div>
-            <div class="main_news_content_card_views">
-              <div class="main_news_content_card_views_time">
-                <h1>Вчера, 23:56</h1>
-              </div>
-              <div class="main_news_content_card_views_scan">
-                <img src="../../assets/icons/home/time.svg" alt="">
-                <h1>546</h1>
-              </div>
-            </div>
-          </div>
-          <div class="main_news_content_card">
-            <div class="main_news_content_card_icons">
-              <img src="../../assets/icons/home/story.svg" alt="">
-            </div>
-            <div class="main_news_content_card_tags">
-              <h1>Истоия одного города</h1>
-            </div>
-            <div class="main_news_content_card_text">
-              <h1>В Воронежкой области потерпел крушение самолет Су-34</h1>
-            </div>
-            <div class="main_news_content_card_views">
-              <div class="main_news_content_card_views_time">
-                <h1>Вчера, 23:56</h1>
-              </div>
-              <div class="main_news_content_card_views_scan">
-                <img src="../../assets/icons/home/time.svg" alt="">
-                <h1>546</h1>
-              </div>
-            </div>
-          </div>
-          <div class="main_news_content_card">
-            <div class="main_news_content_card_icons">
-              <img src="../../assets/icons/home/sport.svg" alt="">
-            </div>
-            <div class="main_news_content_card_tags">
-              <h1>Спорт</h1>
-            </div>
-            <div class="main_news_content_card_text">
-              <h1>В Воронежкой области потерпел крушение самолет Су-34</h1>
-            </div>
-            <div class="main_news_content_card_views">
-              <div class="main_news_content_card_views_time">
-                <h1>Вчера, 23:56</h1>
-              </div>
-              <div class="main_news_content_card_views_scan">
-                <img src="../../assets/icons/home/time.svg" alt="">
-                <h1>546</h1>
-              </div>
+            <div class="main_news_content_advertising_card">
+              <h1>Рекламный баннер</h1>
             </div>
           </div>
         </div>
+      </section>
+      <section class="main_reasons">
+
       </section>
     </main>
   </div>
