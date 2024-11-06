@@ -165,7 +165,12 @@ import Header from '../views/header.vue'
         </div>
       </section>
       <section class="main_reasons">
-
+        <div class="main_reasons_background">
+          <img src="../../assets/icons/home/reasons.svg" alt="">
+          <div class="main_reasons_background_text-logo">
+            <h1></h1>
+          </div>
+        </div>
       </section>
     </main>
   </div>
