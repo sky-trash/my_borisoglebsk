@@ -282,9 +282,13 @@
   padding: 103px 0 0 0;
   
   .main_reasons_background {
+    position: relative;
 
     img {
-      
+      margin: 0 0 0 -108px;
+    }
+    .main_reasons_background_text-logo {
+      position: relative;
     }
   }
 }
