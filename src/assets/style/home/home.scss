@@ -49,7 +49,7 @@
         padding: 6px 6px 6px 28px;
         width: 381px;
         height: 52px;
-        background: var(--background-white);
+        background: var(--background-white) url(../../icons/home/searth/search-button.svg) no-repeat right;
         border: none;
       }
       img {
@@ -284,7 +284,7 @@
   .main_reasons_background {
     display: flex;
 
-    img {
+    #reasons {
       margin: 0 0 0 -108px;
     }
     .main_reasons_background_text {
@@ -301,6 +301,14 @@
           font-size: 52px;
           line-height: 110%;
           color: var(--background-white);
+        }
+      }
+      .main_reasons_background_text_row {
+        padding: 40px 0 0 0;
+
+        .main_reasons_background_text_row_card {
+          display: flex;
+          
         }
       }
     }

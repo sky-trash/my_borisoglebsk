@@ -10,7 +10,7 @@ import Header from '../views/header.vue'
     <main class="main">
       <section class="main_search">
         <div class="main_search_icons">
-          <img src="../../assets/icons/home/search-base.svg" alt="">
+          <img src="../../assets/icons/home/searth/search-base.svg" alt="">
         </div>
         <div class="main_search_text-news">
           <h1>Только оперативные новости</h1>
@@ -20,8 +20,7 @@ import Header from '../views/header.vue'
             <h1>Поиск по сайту: новости, события и многое другое</h1>
           </div>
           <div class="main_search_scan-input">
-            <input placeholder="Начните поиск по сайту..." type="search">
-            <img src="../../assets/icons/home/searсh-button.svg" alt="">
+            <input placeholder="Начните поиск по сайту..." type="search" >
           </div>
         </div>
       </section>
@@ -63,7 +62,7 @@ import Header from '../views/header.vue'
                 <h1>Подробнее</h1>
               </div>
               <div class="main_news_more_icons">
-                <img src="../../assets/icons/home/right.svg" alt="">
+                <img src="../../assets/icons/home/searth/right.svg" alt="">
               </div>
             </div>
           </a>
@@ -72,7 +71,7 @@ import Header from '../views/header.vue'
           <div class="main_news_content_tidings">
             <div class="main_news_content_tidings_card">
               <div class="main_news_content_tidings_card_icons">
-                <img src="../../assets/icons/home/incidents.svg" alt="">
+                <img src="../../assets/icons/home/news/incidents.svg" alt="">
               </div>
               <div class="main_news_content_tidings_card_tags">
                 <h1>Происшествия</h1>
@@ -92,7 +91,7 @@ import Header from '../views/header.vue'
             </div>
             <div class="main_news_content_tidings_card">
               <div class="main_news_content_tidings_card_icons">
-                <img src="../../assets/icons/home/story.svg" alt="">
+                <img src="../../assets/icons/home/news/story.svg" alt="">
               </div>
               <div class="main_news_content_tidings_card_tags">
                 <h1>История одного города</h1>
@@ -112,7 +111,7 @@ import Header from '../views/header.vue'
             </div>
             <div class="main_news_content_tidings_card">
               <div class="main_news_content_tidings_card_icons">
-                <img src="../../assets/icons/home/story.svg" alt="">
+                <img src="../../assets/icons/home/news/story.svg" alt="">
               </div>
               <div class="main_news_content_tidings_card_tags">
                 <h1>Истоия одного города</h1>
@@ -132,7 +131,7 @@ import Header from '../views/header.vue'
             </div>
             <div class="main_news_content_tidings_card">
               <div class="main_news_content_tidings_card_icons">
-                <img src="../../assets/icons/home/sport.svg" alt="">
+                <img src="../../assets/icons/home/news/sport.svg" alt="">
               </div>
               <div class="main_news_content_tidings_card_tags">
                 <h1>Спорт</h1>
@@ -166,10 +165,32 @@ import Header from '../views/header.vue'
       </section>
       <section class="main_reasons">
         <div class="main_reasons_background">
-          <img src="../../assets/icons/home/reasons.svg" alt="">
+          <img id="reasons" src="../../assets/icons/home/reasons/reasons.svg" alt="">
           <div class="main_reasons_background_text">
             <div class="main_reasons_bacfground_text_logo">
-              <h1>5 весомых причин перееxать в Борисоглебск</h1>
+              <h1>5 весомых причин <br>перееxать в Борисоглебск</h1>
+            </div>
+            <div class="main_reasons_background_text_row">
+              <div class="main_reasons_background_text_row_card">
+                <img src="../../assets/icons/home/reasons/story.svg" alt="">
+                <h1>Исторический город</h1>
+              </div>
+              <div class="main_reasons_background_text_row_card">
+                <img src="../../assets/icons/home/reasons/work.svg" alt="">
+                <h1>Возможность трудоустройства</h1>
+              </div>
+              <div class="main_reasons_background_text_row_card">
+                <img src="../../assets/icons/home/reasons/life.svg" alt="">
+                <h1>Жилье</h1>
+              </div>
+              <div class="main_reasons_background_text_row_card">
+                <img src="../../assets/icons/home/reasons/rest.svg" alt="">
+                <h1>Возможности для отдыха</h1>
+              </div>
+              <div class="main_reasons_background_text_row_card">
+                <img src="../../assets/icons/home/reasons/children.svg" alt="">
+                <h1>Объекты для детей</h1>
+              </div>
             </div>
           </div>
         </div>
