@@ -167,8 +167,10 @@ import Header from '../views/header.vue'
       <section class="main_reasons">
         <div class="main_reasons_background">
           <img src="../../assets/icons/home/reasons.svg" alt="">
-          <div class="main_reasons_background_text-logo">
-            <h1>5 весомых причини переехать в Борисоглебск</h1>
+          <div class="main_reasons_background_text">
+            <div class="main_reasons_bacfground_text_logo">
+              <h1>5 весомых причин перееxать в Борисоглебск</h1>
+            </div>
           </div>
         </div>
       </section>

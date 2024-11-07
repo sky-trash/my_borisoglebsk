@@ -282,13 +282,27 @@
   padding: 103px 0 0 0;
   
   .main_reasons_background {
-    position: relative;
+    display: flex;
 
     img {
       margin: 0 0 0 -108px;
     }
-    .main_reasons_background_text-logo {
-      position: relative;
+    .main_reasons_background_text {
+      position: absolute;
+      padding: 97px 0;
+
+      .main_reasons_bacfground_text_logo {
+        width: 723px;
+        height: 114px;
+
+        h1 {
+          font-family: var(--second-family);
+          font-weight: 900;
+          font-size: 52px;
+          line-height: 110%;
+          color: var(--background-white);
+        }
+      }
     }
   }
 }
