@@ -20,7 +20,7 @@ import Header from '../views/header.vue'
             <h1>Поиск по сайту: новости, события и многое другое</h1>
           </div>
           <div class="main_search_scan-input">
-            <input placeholder="Начните поиск по сайту..." type="search" >
+            <input placeholder="Начните поиск по сайту..." type="search">
           </div>
         </div>
       </section>
@@ -192,7 +192,20 @@ import Header from '../views/header.vue'
                 <h1>Объекты для детей</h1>
               </div>
             </div>
+            <div class="main_reasons_background_text_button">
+              <a href="#">
+                <button>
+                  <h1>Подробнее</h1>
+                  <img src="../../assets/icons/home/reasons/right.svg" alt="">
+                </button>
+              </a>
+            </div>
           </div>
+        </div>
+      </section>
+      <section class="main_advertising">
+        <div class="main_advertising_block">
+          <h1>Рекламный баннер</h1>
         </div>
       </section>
     </main>

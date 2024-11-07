@@ -308,9 +308,70 @@
 
         .main_reasons_background_text_row_card {
           display: flex;
+          padding: 0 0 32px 0;
           
+          img {
+            margin: 0;
+          }
+          h1 {
+            margin: 0;
+            padding: 9.5px 0 9.5px 24px;
+
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 130%;
+            color: var(--background-white);
+          }
         }
       }
+      .main_reasons_background_text_button {
+        padding: 16px 0 0 0;
+      
+        button {
+          display: flex;
+          margin: 0;
+
+          border-radius: 10px;
+          border: none;
+          padding: 10px 29.5px 12px 35.5px;
+          width: 179px;
+          height: 41px;
+          background: var(--background-white);
+
+          h1 {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            color: var(--background-peoprle);
+            margin: 0;
+          }
+          img {
+            padding: 2px 0 2px 14px;
+          }
+        }
+      }
+    }
+  }
+}
+.main_advertising {
+  padding: 97px 0 0 0;
+
+  .main_advertising_block {
+    padding: 10px;
+    width: 1224px;
+    height: 200px;
+    background: var(--ad-background);
+
+    h1 {
+      font-family: var(--second-family);
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 120%;
+      color: var(--ad-text);
+      opacity: 0.5;
+
+      padding: 89px 0 0 531px;
     }
   }
 }
