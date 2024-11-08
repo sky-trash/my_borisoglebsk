@@ -208,6 +208,16 @@ import Header from '../views/header.vue'
           <h1>Рекламный баннер</h1>
         </div>
       </section>
+      <section class="main_car">
+        <div class="main_car_text">
+          <h1>Саратов</h1>
+          <p>3 часа 15 минут</p>
+          <h1>Борисоглебск</h1>
+        </div>
+        <div class="main_car_icons">
+          <img src="../../assets/icons/home/" alt="">
+        </div>
+      </section>
     </main>
   </div>
 </template>
