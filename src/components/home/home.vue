@@ -212,10 +212,16 @@ import Header from '../views/header.vue'
         <div class="main_car_text">
           <h1>Саратов</h1>
           <p>3 часа 15 минут</p>
-          <h1>Борисоглебск</h1>
+          <h2>Борисоглебск</h2>
         </div>
         <div class="main_car_icons">
-          <img src="../../assets/icons/home/" alt="">
+          <img id="carside" src="../../assets/icons/home/map/carside.svg" alt="">
+          <img id="line-car"src="../../assets/icons/home/map/line.svg" alt="">
+        </div>
+      </section>
+      <section class="main_map">
+        <div class="main_map_icons">
+          <img src="../../assets/icons/home/map/map.svg" alt="" >
         </div>
       </section>
     </main>

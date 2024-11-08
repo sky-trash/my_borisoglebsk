@@ -375,3 +375,59 @@
     }
   }
 }
+.main_car {
+  padding: 100px 0 0 0;
+  width: 1225px;
+  height: 100px;
+
+  .main_car_text {
+    display: flex;
+
+    h1 {
+      font-family: var(--second-family);
+      font-weight: 500;
+      font-size: 44px;
+      line-height: 110%;
+      color: var(--110833);
+
+      padding: 18px 375px 34px 0;
+      margin: 0;
+    }
+    p {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 110%;
+      color: var(--110833);
+      width: 138px;
+
+      margin: 0;
+      padding: 29px 0 51px 0;
+      display: flex;
+    }
+    h2 {
+      font-family: var(--second-family);
+      font-weight: 500;
+      font-size: 44px;
+      line-height: 110%;
+      color: var(--110833);
+
+      margin: 0;
+      padding: 18px 0 34px 260px;
+    }
+  }
+  .main_car_icons {
+
+    #carside {
+      position: absolute;
+      margin: -59px 599px 13px 598px;
+    }
+    #line-car {
+      position: absolute;
+      margin: -37px 1px 18px 0;
+    }
+  }
+}
+.main_map {
+  padding: 30px 0 0 0;
+}
