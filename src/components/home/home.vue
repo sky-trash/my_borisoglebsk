@@ -224,6 +224,53 @@ import Header from '../views/header.vue'
           <img src="../../assets/icons/home/map/map.svg" alt="" >
         </div>
       </section>
+      <section class="main_slider">
+        <div class="main_slider_navigation">
+          <a href="#">
+            <div id="button-attractions" class="main_slider_navigation_text">
+              <h1>Все достопримечательности</h1>
+            </div>
+          </a>
+          <a href="#">
+            <div id="button-сathedrals" class="main_slider_navigation_text">
+              <h1>Соборы</h1>
+            </div>
+          </a>
+          <a href="#">
+            <div id="button-temple" class="main_slider_navigation_text">
+              <h1>Храм</h1>
+            </div>
+          </a>
+          <a href="#">
+            <div id="button-monuments" class="main_slider_navigation_text">
+              <h1>Памятники</h1>
+            </div>
+          </a>
+          <a href="#">
+            <div id="button-squares" class="main_slider_navigation_text">
+              <h1>Площади</h1>
+            </div>
+          </a>
+          <a href="#">
+            <div id="button-park" class="main_slider_navigation_text">
+              <h1>Парки</h1>
+            </div>
+          </a>
+          <a href="#">
+            <div class="main_slider_navigation_more">
+              <div class="main_slider_navigation_more_text">
+                <h1>Подробнее</h1>
+              </div>
+              <div class="main_slider_navigation_more_icons">
+                <img src="../../assets/icons/home/searth/right.svg" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="main_slider_slide">
+
+        </div>
+      </section>
     </main>
   </div>
 </template>
