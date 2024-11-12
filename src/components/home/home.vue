@@ -3,46 +3,46 @@ import '../../assets/style/root/root.scss'
 import '../../assets/style/home/home.scss'
 import Header from '../views/header.vue'
 
-const list = document.querySelector('.main_news_navigation'),
-      items = document.querySelectorAll('.main_news_content_tidings_card')
+// const list = document.querySelector('.main_news_navigation'),
+//       items = document.querySelectorAll('.main_news_content_tidings_card')
 
-function filter() {
-  list.addEventListener('click', event => {
-    const targetId = event.target.dataset.id
+// function filter() {
+//   list.addEventListener('click', event => {
+//     const targetId = event.target.dataset.id
 
-    switch (targetId) {
-      case 'all':
-        getItems('main_news_content_tidings_card')
-        break
-      case 'trips':
-        getItems(targetId)
-        break
-      case 'sport':
-        getItems(targetId)
-        break
-      case 'policy':
-        getItems(targetId)
-        break
-      case 'economy':
-        getItems(targetId)
-        break
-      case 'culture':
-        getItems(targetId)
-        break
-    }
-  })
-}
-filter()
+//     switch (targetId) {
+//       case 'all':
+//         getItems('main_news_content_tidings_card')
+//         break
+//       case 'trips':
+//         getItems(targetId)
+//         break
+//       case 'sport':
+//         getItems(targetId)
+//         break
+//       case 'policy':
+//         getItems(targetId)
+//         break
+//       case 'economy':
+//         getItems(targetId)
+//         break
+//       case 'culture':
+//         getItems(targetId)
+//         break
+//     }
+//   })
+// }
+// filter()
 
-function getItems(className) {
-  items.forEach(item => {
-    if (item.classList.contains(className)) {
-      item.style.display = 'block'
-    } else {
-      item.style.display = 'none'
-    }
-  })
-}
+// function getItems(className) {
+//   items.forEach(item => {
+//     if (item.classList.contains(className)) {
+//       item.style.display = 'block'
+//     } else {
+//       item.style.display = 'none'
+//     }
+//   })
+// }
 </script>
 <template>
   <Header />
