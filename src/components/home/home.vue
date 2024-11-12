@@ -3,6 +3,46 @@ import '../../assets/style/root/root.scss'
 import '../../assets/style/home/home.scss'
 import Header from '../views/header.vue'
 
+const list = document.querySelector('.main_news_navigation'),
+      items = document.querySelectorAll('.main_news_content_tidings_card')
+
+function filter() {
+  list.addEventListener('click', event => {
+    const targetId = event.target.dataset.id
+
+    switch (targetId) {
+      case 'all':
+        getItems('main_news_content_tidings_card')
+        break
+      case 'trips':
+        getItems(targetId)
+        break
+      case 'sport':
+        getItems(targetId)
+        break
+      case 'policy':
+        getItems(targetId)
+        break
+      case 'economy':
+        getItems(targetId)
+        break
+      case 'culture':
+        getItems(targetId)
+        break
+    }
+  })
+}
+filter()
+
+function getItems(className) {
+  items.forEach(item => {
+    if (item.classList.contains(className)) {
+      item.style.display = 'block'
+    } else {
+      item.style.display = 'none'
+    }
+  })
+}
 </script>
 <template>
   <Header />
@@ -26,50 +66,36 @@ import Header from '../views/header.vue'
       </section>
       <section class="main_news">
         <div class="main_news_navigation">
-          <a href="#">
-            <div id="button-news" class="main_news_navigation_text">
-              <h1>Все новости</h1>
+          <div id="button-news" class="main_news_navigation_text" data-id="all">
+            <h1>Все новости</h1>
+          </div>
+          <div id="button-trips" class="main_news_navigation_text" data-id="trips">
+            <h1>Происшествия</h1>
+          </div>
+          <div id="button-sport" class="main_news_navigation_text" data-id="sport">
+            <h1>Спорт</h1>
+          </div>
+          <div id="button-policy" class="main_news_navigation_text" data-id="policy">
+            <h1>Политика</h1>
+          </div>
+          <div id="button-economy" class="main_news_navigation_text" data-id="economy">
+            <h1>Экономика</h1>
+          </div>
+          <div id="button-culture" class="main_news_navigation_text" data-id="culture">
+            <h1>Культура</h1>
+          </div>
+          <div class="main_news_more">
+            <div class="main_news_more_text">
+              <h1>Подробнее</h1>
             </div>
-          </a>
-          <a href="#">
-            <div id="button-trips" class="main_news_navigation_text">
-              <h1>Происшествия</h1>
+            <div class="main_news_more_icons">
+              <img src="../../assets/icons/home/searth/right.svg" alt="">
             </div>
-          </a>
-          <a href="#">
-            <div id="button-sport" class="main_news_navigation_text">
-              <h1>Спорт</h1>
-            </div>
-          </a>
-          <a href="#">
-            <div id="button-policy" class="main_news_navigation_text">
-              <h1>Политика</h1>
-            </div>
-          </a>
-          <a href="#">
-            <div id="button-economy" class="main_news_navigation_text">
-              <h1>Экономика</h1>
-            </div>
-          </a>
-          <a href="#">
-            <div id="button-culture" class="main_news_navigation_text">
-              <h1>Культура</h1>
-            </div>
-          </a>
-          <a href="#">
-            <div class="main_news_more">
-              <div class="main_news_more_text">
-                <h1>Подробнее</h1>
-              </div>
-              <div class="main_news_more_icons">
-                <img src="../../assets/icons/home/searth/right.svg" alt="">
-              </div>
-            </div>
-          </a>
+          </div>
         </div>
         <div class="main_news_content">
           <div class="main_news_content_tidings">
-            <div class="main_news_content_tidings_card">
+            <div class="main_news_content_tidings_card trips">
               <div class="main_news_content_tidings_card_icons">
                 <img src="../../assets/icons/home/news/incidents.svg" alt="">
               </div>
@@ -89,7 +115,7 @@ import Header from '../views/header.vue'
                 </div>
               </div>
             </div>
-            <div class="main_news_content_tidings_card">
+            <div class="main_news_content_tidings_card culture">
               <div class="main_news_content_tidings_card_icons">
                 <img src="../../assets/icons/home/news/story.svg" alt="">
               </div>
@@ -109,7 +135,7 @@ import Header from '../views/header.vue'
                 </div>
               </div>
             </div>
-            <div class="main_news_content_tidings_card">
+            <div class="main_news_content_tidings_card culture">
               <div class="main_news_content_tidings_card_icons">
                 <img src="../../assets/icons/home/news/story.svg" alt="">
               </div>
@@ -129,7 +155,7 @@ import Header from '../views/header.vue'
                 </div>
               </div>
             </div>
-            <div class="main_news_content_tidings_card">
+            <div class="main_news_content_tidings_card sport">
               <div class="main_news_content_tidings_card_icons">
                 <img src="../../assets/icons/home/news/sport.svg" alt="">
               </div>
@@ -216,12 +242,12 @@ import Header from '../views/header.vue'
         </div>
         <div class="main_car_icons">
           <img id="carside" src="../../assets/icons/home/map/carside.svg" alt="">
-          <img id="line-car"src="../../assets/icons/home/map/line.svg" alt="">
+          <img id="line-car" src="../../assets/icons/home/map/line.svg" alt="">
         </div>
       </section>
       <section class="main_map">
         <div class="main_map_icons">
-          <img src="../../assets/icons/home/map/map.svg" alt="" >
+          <img src="../../assets/icons/home/map/map.svg" alt="">
         </div>
       </section>
       <section class="main_slider">
