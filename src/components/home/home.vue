@@ -246,8 +246,24 @@ import Header from '../views/header.vue'
         </div>
       </section>
       <section class="main_map">
-        <div class="main_map_icons">
-          <img src="../../assets/icons/home/map/map.svg" alt="">
+        <img src="../../assets/icons/home/map/map.svg" alt="">
+        <div class="main_map_city">
+          <div class="main_map_city_voronezh">
+            <img id="elips-voronezh" src="../../assets/icons/home/map/elips-map.svg" alt="">
+            <img id="voronezh-map" src="../../assets/icons/home/map/Voronezh.svg" alt="">
+          </div>
+          <div class="main_map_city_tambov">
+            <img id="elips-tambov" src="../../assets/icons/home/map/elips-map.svg" alt="">
+            <img id="tambov-map" src="../../assets/icons/home/map/Tambov.svg" alt="">
+          </div>
+          <div class="main_map_city_penza">
+            <img id="elips-penza" src="../../assets/icons/home/map/elips-map.svg" alt="">
+            <img id="penza-map" src="../../assets/icons/home/map/Penza.svg" alt="">
+          </div>
+          <div class="main_map_city_saratov">
+            <img id="elips-saratov" src="../../assets/icons/home/map/elips-map.svg" alt="">
+            <img id="saratov-map" src="../../assets/icons/home/map/Saratov.svg" alt="">
+          </div>
         </div>
       </section>
       <section class="main_slider">
