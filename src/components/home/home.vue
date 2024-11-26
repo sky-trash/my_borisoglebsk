@@ -2,6 +2,31 @@
 import '../../assets/style/root/root.scss'
 import '../../assets/style/home/home.scss'
 import Header from '../views/header.vue'
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+// Import Swiper styles
+import 'swiper/css';
+
+
+
+export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    const onSwiper = (swiper) => {
+      console.log(swiper);
+    };
+    const onSlideChange = () => {
+      console.log('slide change');
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+    };
+  },
+};
 
 // const list = document.querySelector('.main_news_navigation'),
 //       items = document.querySelectorAll('.main_news_content_tidings_card')
@@ -310,7 +335,9 @@ import Header from '../views/header.vue'
           </a>
         </div>
         <div class="main_slider_slide">
-
+          <div>
+            
+          </div>
         </div>
       </section>
     </main>
